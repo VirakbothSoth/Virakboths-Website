@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse } from '../assets/certs';
+import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp } from '../assets/certs';
 import Certificate from './Certificate';
 
 const Certs = () => {
@@ -40,10 +40,13 @@ const Certs = () => {
     { image: ib_be, url: 'https://www.coursera.org/account/accomplishments/certificate/S7O0PT89GJNY', altText: 'IBM Back-End Apps with Node & Express Certificate' },
 
     { image: jhu, url: 'https://www.coursera.org/account/accomplishments/certificate/8DILH4N0ABM6', altText: 'JHU Web Dev Certificate' },
+
+    { image: rwd, url: 'https://www.freecodecamp.org/certification/virakboth_soth/responsive-web-design', altText: 'FreeCodeCamp Web Design Certificate' },
   ];
 
   const otherCerts = [
     { image: cc, url: 'https://codecombat.com/certificates/6533825122ab2d0031d4ba79', altText: 'CodeCombat Certificate' },
+    { image: rwd, url: 'https://www.freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Web Design Certificate' },
     { image: p1, url: 'https://www.coursera.org/account/accomplishments/certificate/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
     { image: p2, url: 'https://www.coursera.org/account/accomplishments/certificate/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
     { image: p3, url: 'https://www.coursera.org/account/accomplishments/certificate/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
@@ -85,7 +88,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="font-bold mb-6">Certificates (36)</h2>
+        <h2 className="font-bold mb-6">Certificates (38)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button

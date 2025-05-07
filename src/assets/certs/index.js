@@ -34,6 +34,9 @@ export { default as ib_js } from './ibm_js.jpg';
 // Cisco Certificates
 export { default as dc } from './dc.jpg';
 export { default as ud } from './ud.jpg';
+// FCC Certificates
+export { default as scp } from './fcc_scp.jpg';
+export { default as rwd } from './fcc_rwd.jpg';
 
 // Miscellaneous
 export { default as cc } from './cc.jpg';

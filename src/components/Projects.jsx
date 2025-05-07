@@ -12,6 +12,26 @@ const Schools = () => {
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
               <div className="mb-[50px]">
+                <h3 className="text-3xl font-bold">Various Scratch Projects</h3>
+                <p className="text-xl text-gray-400">
+                  <em>at CS50S, Algorithmics</em>
+                </p>
+              </div>
+              <p className="text-xl flex items-center">
+                Technologies used: <SiScratch />
+              </p>
+              <p className="text-xl">Probably one of my first Coding Projects, some were made for fun & some were just school projects</p>
+              <a
+              href="https://scratch.mit.edu/projects/787673812/"
+              className="font-bold text-b"
+              >
+              Solar System Clicker
+              </a>
+            </div>
+            <div
+              className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
+            >
+              <div className="mb-[50px]">
                 <h3 className="text-3xl font-bold">Cybersecurity Website</h3>
                 <p className="text-xl text-gray-400">
                   <em>at SnoopEdu</em>
@@ -78,26 +98,6 @@ const Schools = () => {
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
               <div className="mb-[50px]">
-                <h3 className="text-3xl font-bold">Various Scratch Projects</h3>
-                <p className="text-xl text-gray-400">
-                  <em>at CS50S, Algorithmics</em>
-                </p>
-              </div>
-              <p className="text-xl flex items-center">
-                Technologies used: <SiScratch />
-              </p>
-              <p className="text-xl">Probably one of my first Coding Projects, some were made for fun & some were just school projects</p>
-              <a
-              href="https://scratch.mit.edu/projects/787673812/"
-              className="font-bold text-b"
-              >
-              Solar System Clicker
-              </a>
-            </div>
-            <div
-              className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
-            >
-              <div className="mb-[50px]">
                 <h3 className="text-3xl font-bold">Link Shortener</h3>
                 <p className="text-xl text-gray-400">
                   <em>at CS50W</em>
@@ -118,20 +118,20 @@ const Schools = () => {
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
             >
               <div className="mb-[50px]">
-                <h3 className="text-3xl font-bold">Link Shortener</h3>
+                <h3 className="text-3xl font-bold">Technical Documentation</h3>
                 <p className="text-xl text-gray-400">
-                  <em>at CS50W</em>
+                  <em>at FreeCodeCamp</em>
                 </p>
               </div>
               <p className="text-xl flex items-center">
-                Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango />
+                Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
               </p>
-              <p className="text-xl">A simple link shortener app submitted to CS50W</p>
+              <p className="text-xl">A project in FreeCodeCamp</p>
               <a
-              href="https://github.com/VirakbothSoth/linkshortener"
+              href="https://virakbothsoth.github.io/techdoc"
               className="font-bold text-b"
               >
-              Github Repo
+              Website
               </a>
             </div>
         </div>
