@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply text-center;
+	}
+
+	p,
+	a,
+	span {
+		@apply text-2xl;
+	}
+
+	h1 {
+		@apply text-9xl;
+	}
+
+	h2 {
+		@apply text-5xl;
+	}
+
+	h3 {
+		@apply text-4xl;
+	}
+
+	a {
+		@apply text-blue-500 underline hover:text-blue-600 block;
+	}
+
+	#ScrollDown {
+		@apply font-bold animate-bounce flex items-center justify-center gap-2 text-base leading-relaxed text-gray-400;
+	}
+
+	.certificate-i {
+		@apply p-5;
+	}
+
+	@media (max-width: 1000px) {
+		h1 {
+			@apply text-6xl;
+		}
+
+		h2 {
+			@apply text-4xl;
+		}
+
+		h3 {
+			@apply text-3xl;
+		}
+
+		p,
+		a,
+		span {
+			@apply text-xl;
+		}
+
+		#ScrollDown {
+			@apply text-sm;
+		}
+
+		@media (max-width: 680px) {
+			h1 {
+				@apply text-4xl;
+			}
+
+			div {
+				@apply p-1;
+			}
+
+			h2 {
+				@apply text-3xl;
+			}
+
+			h3 {
+				@apply text-2xl;
+			}
+
+			p,
+			a,
+			span {
+				@apply text-lg;
+			}
+
+			#ScrollDown {
+				@apply text-xs;
+			}
+		}
+	}
+}
