@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virakboth's Pass Gen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Virakboth's Pass Generator</h1>
+        </h1>
+        <textarea id="result" rows="1" readonly style="overflow-x: scroll; resize: none; width: 25em;">pass goes here</textarea>
+        <span for="length">Password Length:</span>
+        <input type="number" id="length" name="length" value="12" max="200" required>
+        <button onclick="generatePassword();">🎲 Generate</button>
+        <button onclick="copyTo();">📋 Copy</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
