@@ -42,7 +42,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A School Project I developed with my classmates</p>
               <a
-              href="https://virakbothsoth.github.io/cybersecurity"
+              href="https://virakbothsoth.github.io/projects/cybersecurity"
               className="font-bold text-b"
               >
               Website
@@ -68,7 +68,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A simple password generator website, nothing else</p>
               <a
-              href="https://virakbothsoth.github.io/passgen"
+              href="https://virakbothsoth.github.io/projects/cybersecurity"
               className="font-bold text-b"
               >
               Website
@@ -108,7 +108,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A simple link shortener app submitted to CS50W</p>
               <a
-              href="https://github.com/VirakbothSoth/linkshortener"
+              href="https://github.com/VirakbothSoth/Virakboths-Link-Shortener"
               className="font-bold text-b"
               >
               Github Repo
