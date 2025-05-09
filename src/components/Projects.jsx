@@ -128,7 +128,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A project in FreeCodeCamp</p>
               <a
-              href="/projects/techdoc"
+              href="https://virakbothsoth.github.io/projects/techdoc"
               className="font-bold text-b"
               >
               Website
