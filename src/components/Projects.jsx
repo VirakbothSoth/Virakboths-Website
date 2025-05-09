@@ -42,13 +42,13 @@ const Schools = () => {
               </p>
               <p className="text-xl">A School Project I developed with my classmates</p>
               <a
-              href="https://virakbothsoth.github.io/projects/cybersecurity"
+              href="/projects/cybersecurity"
               className="font-bold text-b"
               >
               Website
               </a>
               <a
-              href="https://github.com/VirakbothSoth/virakbothsoth.github.io/tree/main/cybersecurity"
+              href="https://github.com/virakbothportfolio/virakbothportfolio.github.io"
               className="font-bold text-b"
               >
               Github Repo
@@ -68,13 +68,13 @@ const Schools = () => {
               </p>
               <p className="text-xl">A simple password generator website, nothing else</p>
               <a
-              href="https://virakbothsoth.github.io/projects/cybersecurity"
+              href="/projects/passgen"
               className="font-bold text-b"
               >
               Website
               </a>
               <a
-              href="https://github.com/VirakbothSoth/Virakboths-Passgen/tree/main"
+              href="https://github.com/VirakbothSoth/Virakboths-Passgen"
               className="font-bold text-b"
               >
               Github Repo
@@ -128,7 +128,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A project in FreeCodeCamp</p>
               <a
-              href="https://virakbothsoth.github.io/techdoc"
+              href="/projects/techdoc"
               className="font-bold text-b"
               >
               Website
