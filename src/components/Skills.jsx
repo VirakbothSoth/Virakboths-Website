@@ -2,15 +2,14 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: 'Python', level: 80 },
+    { name: 'Python', level: 75 },
     { name: 'Java', level: 10 },
-    { name: 'C', level: 20 },
-    { name: 'HTML', level: 95 },
-    { name: 'CSS', level: 90 },
-    { name: 'JavaScript', level: 70 },
+    { name: 'HTML', level: 100 },
+    { name: 'CSS', level: 100 },
+    { name: 'JavaScript', level: 60 },
     { name: 'React', level: 60 },
-    { name: 'Tailwind CSS', level: 70 },
-    { name: 'Django', level: 50 },
+    { name: 'Tailwind CSS', level: 60 },
+    { name: 'Django', level: 40 },
   ];
 
   // Function to get color based on skill name
@@ -24,8 +23,6 @@ const Skills = () => {
         return 'bg-yellow-400';
       case 'javascript':
         return 'bg-green-400';
-      case 'c':
-        return 'bg-cyan-400';
       case 'css':
         return 'bg-blue-400';
       case 'react':
