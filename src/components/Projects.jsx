@@ -21,13 +21,21 @@ const Schools = () => {
               <p className="text-xl flex items-center">
                 Technologies used: <SiScratch />
               </p>
-              <p className="text-xl">Probably one of my first Coding Projects, some were made for fun & some were just school projects</p>
-              <a
-              href="https://scratch.mit.edu/projects/787673812"
-              className="font-bold text-b"
-              >
-              Solar System Clicker
-              </a>
+              <p className="text-xl">One of my 1st Coding Projects, some are school projects</p>
+              <div className='flex gap-4'>
+                <a
+                href="https://scratch.mit.edu/projects/787673812"
+                className="font-bold text-b"
+                >
+                Solar System Clicker
+                </a>
+                <a
+                href="https://scratch.mit.edu/projects/782982623"
+                className="font-bold text-b"
+                >
+                Untitled Clicker
+                </a>
+              </div>
             </div>
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
@@ -42,18 +50,20 @@ const Schools = () => {
                 Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
               </p>
               <p className="text-xl">A School Project I developed with my classmates</p>
-              <a
-              href="/projects/cybersecurity"
-              className="font-bold text-b"
-              >
-              Website
-              </a>
-              <a
-              href="https://github.com/virakbothportfolio/virakbothportfolio.github.io"
-              className="font-bold text-b"
-              >
-              Github Repo
-              </a>
+              <div className='flex gap-4'>
+                <a
+                href="/projects/cybersecurity"
+                className="font-bold text-b"
+                >
+                Website
+                </a>
+                <a
+                href="https://github.com/virakbothportfolio/virakbothportfolio.github.io"
+                className="font-bold text-b"
+                >
+                Github Repo
+                </a>
+              </div>
             </div>
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
@@ -68,18 +78,20 @@ const Schools = () => {
                 Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
               </p>
               <p className="text-xl">A simple password generator website, nothing else</p>
-              <a
-              href="/projects/passgen"
-              className="font-bold text-b"
-              >
-              Website
-              </a>
-              <a
-              href="https://github.com/VirakbothSoth/Virakboths-Passgen"
-              className="font-bold text-b"
-              >
-              Github Repo
-              </a>
+              <div className='flex gap-4'>
+                <a
+                href="/projects/passgen"
+                className="font-bold text-b"
+                >
+                Website
+                </a>
+                <a
+                href="https://github.com/VirakbothSoth/Virakboths-Passgen"
+                className="font-bold text-b"
+                >
+                Github Repo
+                </a>
+              </div>
             </div>
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
