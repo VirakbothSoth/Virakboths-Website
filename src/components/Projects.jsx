@@ -43,7 +43,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A School Project I developed with my classmates</p>
               <a
-              href="https://virakbothsoth.github.io/projects/cybersecurity"
+              href="/projects/cybersecurity/index.html"
               className="font-bold text-b"
               >
               Website
@@ -69,7 +69,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A simple password generator website, nothing else</p>
               <a
-              href="https://virakbothsoth.github.io/projects/passgen"
+              href="/projects/passgen/index.html"
               className="font-bold text-b"
               >
               Website
@@ -129,7 +129,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A project in FreeCodeCamp</p>
               <a
-              href="https://virakbothsoth.github.io/projects/techdoc"
+              href="/projects/techdoc/index.html"
               className="font-bold text-b"
               >
               Website
