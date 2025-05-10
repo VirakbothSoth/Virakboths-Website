@@ -1,4 +1,11 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist"
+  "outputDirectory": "dist",
+  "redirects": [
+    {
+      "source": "/projects/:slug",
+      "destination": "/projects/:slug/",
+      "permanent": true
+    }
+  ]
 }
