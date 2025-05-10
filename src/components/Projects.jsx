@@ -23,7 +23,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">Probably one of my first Coding Projects, some were made for fun & some were just school projects</p>
               <a
-              href="https://scratch.mit.edu/projects/787673812/"
+              href="https://scratch.mit.edu/projects/787673812"
               className="font-bold text-b"
               >
               Solar System Clicker
@@ -43,7 +43,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A School Project I developed with my classmates</p>
               <a
-              href="/projects/cybersecurity/index.html"
+              href="/projects/cybersecurity"
               className="font-bold text-b"
               >
               Website
@@ -69,7 +69,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A simple password generator website, nothing else</p>
               <a
-              href="/projects/passgen/index.html"
+              href="/projects/passgen"
               className="font-bold text-b"
               >
               Website
@@ -129,7 +129,7 @@ const Schools = () => {
               </p>
               <p className="text-xl">A project in FreeCodeCamp</p>
               <a
-              href="/projects/techdoc/index.html"
+              href="/projects/techdoc"
               className="font-bold text-b"
               >
               Website
