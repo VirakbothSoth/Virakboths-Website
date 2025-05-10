@@ -7,7 +7,7 @@ const Hero = () => {
     <section>
       <div className="text-black p-40">
         <div>
-          <div className="flex items-center justify-center animate-bounce">
+          <div className="flex items-center justify-center">
             <img
             src={face}
             alt="Virakboth's Face"
@@ -28,7 +28,7 @@ const Hero = () => {
           <p
             id="ScrollDown"
           >
-            Scroll Down <FaArrowDown /><FaArrowDown />
+            <FaArrowDown />Scroll Down<FaArrowDown />
           </p>
         </div>
       </div>

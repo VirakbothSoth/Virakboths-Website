@@ -1,68 +1,48 @@
 import React from 'react';
+import { SiPython, SiDjango, SiTailwindcss, SiReact, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
+import { FaJava, FaStar } from 'react-icons/fa';
 
 const Skills = () => {
-  const skills = [
-    { name: 'Python', level: 75 },
-    { name: 'Java', level: 10 },
-    { name: 'HTML', level: 100 },
-    { name: 'CSS', level: 100 },
-    { name: 'JavaScript', level: 60 },
-    { name: 'React', level: 60 },
-    { name: 'Tailwind CSS', level: 60 },
-    { name: 'Django', level: 40 },
-  ];
-
-  // Function to get color based on skill name
-  const getColor = (skillName) => {
-    switch (skillName.toLowerCase()) {
-      case 'html':
-        return 'bg-red-400';
-      case 'python':
-        return 'bg-blue-400';
-      case 'java':
-        return 'bg-yellow-400';
-      case 'javascript':
-        return 'bg-green-400';
-      case 'css':
-        return 'bg-blue-400';
-      case 'react':
-        return 'bg-cyan-400';
-      case 'tailwind css':
-        return 'bg-teal-400';
-      case 'django':
-        return 'bg-orange-400';
-    }
-  };
-
   return (
     <section id="skills" className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-5xl text-center font-bold mb-6">Skills</h2>
+        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaStar />Skills</h2>
         <div className="flex justify-center">
-          <ul className="flex flex-wrap justify-center gap-8">
-            {skills.map((skill, index) => (
-              <li
+          <div className="flex flex-wrap justify-center gap-8">
+            {[
+              { name: "Python", icon: <SiPython />, percentage: 75, color: "bg-blue-400" },
+              { name: "Java", icon: <FaJava />, percentage: 10, color: "bg-yellow-400" },
+              { name: "HTML", icon: <SiHtml5 />, percentage: 100, color: "bg-red-400" },
+              { name: "CSS", icon: <SiCss3 />, percentage: 100, color: "bg-blue-400" },
+              { name: "JavaScript", icon: <SiJavascript />, percentage: 60, color: "bg-green-400" },
+              { name: "React", icon: <SiReact />, percentage: 60, color: "bg-cyan-400" },
+              { name: "Tailwind", icon: <SiTailwindcss />, percentage: 60, color: "bg-teal-400" },
+              { name: "Django", icon: <SiDjango />, percentage: 40, color: "bg-orange-400" },
+            ].map((skill, index) => (
+              <div
                 key={index}
                 className="w-full sm:w-1/2 lg:w-1/3 px-4 py-2 bg-blue-600 text-white rounded-md text-center hover:shadow-xl hover:p-5 duration-500"
               >
-                <h3 className="font-semibold text-3xl mb-2">{skill.name}</h3>
+                <h3 className="font-semibold text-3xl mb-2 flex items-center justify-center gap-2">
+                  {skill.icon} {skill.name}
+                </h3>
                 <div className="relative pt-1">
                   <div className="flex mb-2 items-center justify-between">
                     <div className="text-l font-medium">{skill.name}</div>
-                    <div className="text-l font-medium">{skill.level}%</div>
+                    <div className="text-l font-medium">{skill.percentage}%</div>
                   </div>
                   <div className="flex mb-2 items-center justify-between">
                     <div className="bg-bg rounded-full h-2.5 w-full">
                       <div
-                        className={`${getColor(skill.name)} h-2.5 rounded-full`}
-                        style={{ width: `${skill.level}%` }}
+                        className={`${skill.color} h-2.5 rounded-full`}
+                        style={{ width: `${skill.percentage}%` }}
                       ></div>
                     </div>
                   </div>
                 </div>
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
       </div>
     </section>

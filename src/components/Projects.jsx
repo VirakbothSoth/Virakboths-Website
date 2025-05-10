@@ -1,12 +1,13 @@
 import React from 'react';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
+import { FaCode } from "react-icons/fa";
 
 const Schools = () => {
 
   return (
     <section className="p-40">
       <div className="container mx-auto">
-        <h2 className="font-bold mb-6">Projects</h2>
+        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaCode />Projects</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
             <div
               className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"

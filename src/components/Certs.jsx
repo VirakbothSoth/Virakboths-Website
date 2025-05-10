@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp } from '../assets/certs';
+import { PiCertificate } from "react-icons/pi";
 import Certificate from './Certificate';
 
 const Certs = () => {
@@ -88,7 +89,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="font-bold mb-6">Certificates (38)</h2>
+        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><PiCertificate />Certificates (38)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button

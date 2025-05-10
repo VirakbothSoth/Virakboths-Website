@@ -1,10 +1,10 @@
 import React from 'react';
-
+import { FaMap } from "react-icons/fa";
 const Journey = () => {
   return (
     <section className="py-80">
       <div className="container mx-auto">
-        <h2 className="font-bold mb-6">My Journey to Coding</h2>
+        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaMap />Journey to Coding</h2>
         <p>
           My first journey to coding was when I was a <b>twelve year old</b> taking <b>Scratch & Python</b> classes, beginning
           my coding journey.
