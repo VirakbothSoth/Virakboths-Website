@@ -137,11 +137,31 @@ const Schools = () => {
                 </p>
               </div>
               <p className="text-xl flex items-center">
-                Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
+                Technologies used: <SiHtml5 /><SiCss3 />
               </p>
               <p className="text-xl">A project in FreeCodeCamp</p>
               <a
               href="/projects/techdoc"
+              className="font-bold text-b"
+              >
+              Website
+              </a>
+            </div>
+            <div
+              className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
+            >
+              <div className="mb-[50px]">
+                <h3 className="text-3xl font-bold">Personal Portfolio (Mock)</h3>
+                <p className="text-xl text-gray-400">
+                  <em>at FreeCodeCamp</em>
+                </p>
+              </div>
+              <p className="text-xl flex items-center">
+                Technologies used: <SiHtml5 /><SiCss3 />
+              </p>
+              <p className="text-xl">They told me to make a plain portfolio here (its static html and css)</p>
+              <a
+              href="/projects/mockportfolio"
               className="font-bold text-b"
               >
               Website
