@@ -74,29 +74,44 @@ const Projects = () => {
               Learned: <SiHtml5 /><SiCss3 /><FaJs /><SiReact /><SiDjango /><SiScratch /><SiPython /> <b>C</b>
             </p>
             <p className="text-xl">This course is a bit more challenging.</p>
+            <div className='flex gap-4'>
+              <a
+                href="https://cs50.harvard.edu/x"
+                className="font-bold text-b"
+              >
+                CS50x
+              </a>
+              <a
+                href="https://cs50.harvard.edu/scratch"
+                className="font-bold text-b"
+              >
+                CS50 Scratch
+              </a>
+              <a
+                href="https://cs50.harvard.edu/python"
+                className="font-bold text-b"
+              >
+                CS50 Python
+              </a>
+              <a
+                href="https://cs50.harvard.edu/web"
+                className="font-bold text-b"
+              >
+                CS50 Web
+              </a>
+            </div>
+          </div>
+          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+            <h3 className="text-3xl font-bold mb-[50px]">FreeCodeCamp</h3>
+            <p className="text-xl flex items-center">
+              Learned: <SiPython /><SiHtml5 /><SiCss3 /><FaJs />
+            </p>
+            <p className="text-xl">Took FreeCodeCamp as a refresher, and made from projects on the way</p>
             <a
-              href="https://cs50.harvard.edu/x"
+              href="https://freecodecamp.org"
               className="font-bold text-b"
             >
-              CS50x
-            </a>
-            <a
-              href="https://cs50.harvard.edu/scratch"
-              className="font-bold text-b"
-            >
-              CS50 Scratch
-            </a>
-            <a
-              href="https://cs50.harvard.edu/python"
-              className="font-bold text-b"
-            >
-              CS50 Python
-            </a>
-            <a
-              href="https://cs50.harvard.edu/web"
-              className="font-bold text-b"
-            >
-              CS50 Web
+              Their Website
             </a>
           </div>
           <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
