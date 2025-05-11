@@ -37,36 +37,40 @@ const Projects = () => {
               Learned: <SiHtml5 /><SiCss3 /><FaJs /><SiReact /><SiDjango /><SiScratch /><SiPython />
             </p>
             <p className="text-xl">Some various courses on coursera, like Meta Front-End & Python for Everybody.</p>
-            <a
-              href="https://coursera.org"
-              className="font-bold text-b"
-            >
-              Coursera
-            </a>
-            <a
-              href="https://www.coursera.org/professional-certificates/meta-front-end-developer"
-              className="font-bold text-b"
-            >
-              Meta Front-End Course
-            </a>
-            <a
-              href="https://www.coursera.org/professional-certificates/meta-back-end-developer"
-              className="font-bold text-b"
-            >
-              Meta Back-End Course
-            </a>
-            <a
-              href="https://www.coursera.org/learn/learn-to-code-with-ai"
-              className="font-bold text-b"
-            >
-              Scrimba Learn to Code with AI Course
-            </a>
-            <a
-              href="https://www.coursera.org/specializations/python"
-              className="font-bold text-b"
-            >
-              Python for Everybody Course
-            </a>
+            <div className='flex gap-4'>
+              <a
+                href="https://coursera.org"
+                className="font-bold text-b"
+              >
+                Coursera
+              </a>
+              <a
+                href="https://www.coursera.org/professional-certificates/meta-front-end-developer"
+                className="font-bold text-b"
+              >
+                Meta Front-End
+              </a>
+              <a
+                href="https://www.coursera.org/professional-certificates/meta-back-end-developer"
+                className="font-bold text-b"
+              >
+                Meta Back-End
+              </a>
+            </div>
+            <div className='flex gap-4'>
+              <a
+                href="https://www.coursera.org/learn/learn-to-code-with-ai"
+                className="font-bold text-b"
+              >
+                Scrimba Learn to Code with AI
+              </a>
+              <a
+                href="https://www.coursera.org/specializations/python"
+                className="font-bold text-b"
+              >
+                Python for Everybody
+              </a>
+            </div>
           </div>
           <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
             <h3 className="text-3xl font-bold mb-[50px]">CS50 Courses</h3>
