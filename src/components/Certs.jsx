@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp } from '../assets/certs';
+import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/certs';
 import { PiCertificate } from "react-icons/pi";
 import Certificate from './Certificate';
 
@@ -43,11 +43,12 @@ const Certs = () => {
     { image: jhu, url: 'https://www.coursera.org/account/accomplishments/certificate/8DILH4N0ABM6', altText: 'JHU Web Dev Certificate' },
 
     { image: rwd, url: 'https://www.freecodecamp.org/certification/virakboth_soth/responsive-web-design', altText: 'FreeCodeCamp Web Design Certificate' },
+
+    { image: awd, url: 'https://www.coursera.org/account/accomplishments/certificate/XD9F6TQH85E4', altText: 'Accessible Web Development Certificate' },
   ];
 
   const otherCerts = [
     { image: cc, url: 'https://codecombat.com/certificates/6533825122ab2d0031d4ba79', altText: 'CodeCombat Certificate' },
-    { image: rwd, url: 'https://www.freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Web Design Certificate' },
     { image: p1, url: 'https://www.coursera.org/account/accomplishments/certificate/NTMXA8WACBNQ', altText: 'UOM Python Intro Certificate' },
     { image: p2, url: 'https://www.coursera.org/account/accomplishments/certificate/Z47RD2HY9PYR', altText: 'UOM Python Data Certificate' },
     { image: p3, url: 'https://www.coursera.org/account/accomplishments/certificate/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
@@ -55,12 +56,14 @@ const Certs = () => {
     { image: hkse, url: 'https://www.coursera.org/account/accomplishments/certificate/GTPPJ35GF7JI', altText: 'HKU Software Engineer Certificate' },
     { image: dc, url: 'https://www.coursera.org/account/accomplishments/certificate/4NSF48QD3FIS', altText: 'Cisco Digital Content Creation Certificate' },
     { image: ud, url: 'https://www.coursera.org/account/accomplishments/certificate/4NSF48QD3FIS', altText: 'Cisco Using Devices Certificate' },
+    { image: scp, url: 'https://www.freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'Cisco Using Devices Certificate' },
   ];
 
   const aiCerts = [
     { image: s1, url: 'https://www.coursera.org/account/accomplishments/certificate/RCW3SNB46E1N', altText: 'Scrimba Learn to Code with AI Certificate' },
     { image: s2, url: 'https://www.coursera.org/account/accomplishments/certificate/F304YJ6YFM2X', altText: 'Scrimba Web Dev with AI Certificate' },
     { image: s3, url: 'https://www.coursera.org/account/accomplishments/certificate/ZDSBCX0EHPNG', altText: 'Scrimba AI Engineering Intro Certificate' },
+    { image: s4, url: 'https://www.coursera.org/account/accomplishments/certificate/6YOVVKETFY5F', altText: 'Scrimba Deploy AI Apps with Cloudflare Certificate' },
   ];
 
   // Render certificates based on active category
@@ -89,7 +92,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><PiCertificate />Certificates (38)</h2>
+        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><PiCertificate />Certificates (40)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button

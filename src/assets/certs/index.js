@@ -5,8 +5,8 @@ export { default as css } from './cs50s.jpg';
 export { default as csw } from './cs50w.jpg';
 
 
-// John Hopkins + Specializations
-export { default as jhu } from './jhu.jpg';
+// Specializations
+
 export { default as fes } from './fes.jpg';
 export { default as bes } from './bes.jpg';
 // Meta Front-End
@@ -34,7 +34,7 @@ export { default as ib_js } from './ibm_js.jpg';
 // Cisco Certificates
 export { default as dc } from './dc.jpg';
 export { default as ud } from './ud.jpg';
-// FCC Certificates
+// FreeCodeCamp Certificates
 export { default as scp } from './fcc_scp.jpg';
 export { default as rwd } from './fcc_rwd.jpg';
 
@@ -45,8 +45,11 @@ export { default as p2 } from './p2.jpg';
 export { default as p3 } from './p3.jpg';
 export { default as hks } from './hks.jpg';
 export { default as hkse } from './hkse.jpg';
+export { default as jhu } from './jhu.jpg';
+export { default as awd } from './accessible_web_dev.jpg';
 
 // AI Certificates
 export { default as s1 } from './scrimba_1.jpg';
 export { default as s2 } from './scrimba_2.jpg';
 export { default as s3 } from './scrimba_3.jpg';
+export { default as s4 } from './scrimba_4.jpg';
