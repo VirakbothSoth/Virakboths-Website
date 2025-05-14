@@ -1,6 +1,6 @@
 import React from 'react';
-import { SiPython, SiDjango, SiTailwindcss, SiReact, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
-import { FaJava, FaStar } from 'react-icons/fa';
+import { SiScratch, SiPython, SiDjango, SiTailwindcss, SiReact, SiHtml5, SiCss3, SiJavascript } from 'react-icons/si';
+import { FaJava, FaStar, FaNodeJs } from 'react-icons/fa';
 
 const Skills = () => {
   return (
@@ -10,14 +10,16 @@ const Skills = () => {
         <div className="flex justify-center">
           <div className="flex flex-wrap justify-center gap-8">
             {[
-              { name: "Python", icon: <SiPython />, percentage: 75, color: "bg-blue-400" },
-              { name: "Java", icon: <FaJava />, percentage: 10, color: "bg-yellow-400" },
+              { name: "Scratch", icon: <SiScratch />, percentage: 100, color: "bg-orange-600" },
+              { name: "Python", icon: <SiPython />, percentage: 90, color: "bg-blue-400" },
+              { name: "Java", icon: <FaJava />, percentage: 30, color: "bg-yellow-400" },
               { name: "HTML", icon: <SiHtml5 />, percentage: 100, color: "bg-red-400" },
               { name: "CSS", icon: <SiCss3 />, percentage: 100, color: "bg-blue-400" },
               { name: "JavaScript", icon: <SiJavascript />, percentage: 60, color: "bg-green-400" },
               { name: "React", icon: <SiReact />, percentage: 60, color: "bg-cyan-400" },
               { name: "Tailwind", icon: <SiTailwindcss />, percentage: 60, color: "bg-teal-400" },
               { name: "Django", icon: <SiDjango />, percentage: 40, color: "bg-orange-400" },
+              { name: "Node.js", icon: <FaNodeJs />, percentage: 20, color: "bg-green-600" },
             ].map((skill, index) => (
               <div
                 key={index}
