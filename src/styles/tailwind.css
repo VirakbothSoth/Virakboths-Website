@@ -37,6 +37,18 @@
 		@apply p-5;
 	}
 
+	.card {
+		@apply p-5;
+		@apply bg-white;
+		@apply shadow-md rounded-md;
+		@apply duration-500;
+	}
+
+	.card:hover {
+		@apply shadow-xl;
+		@apply p-10;
+	}
+
 	@media (max-width: 1000px) {
 		h1 {
 			@apply text-6xl;

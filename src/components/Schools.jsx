@@ -8,7 +8,7 @@ const Projects = () => {
       <div className="container mx-auto">
         <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaSchool />Schools & Courses</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+          <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">SnoopEdu</h3>
             <p className="text-xl flex items-center">
               Learned: <SiHtml5 /><SiCss3 /><FaJs />
@@ -18,7 +18,7 @@ const Projects = () => {
               Their Website
             </a>
           </div>
-          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+          <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">Algorithmics</h3>
             <p className="text-xl flex items-center">
               Learned: <SiScratch /><SiPython />
@@ -31,7 +31,7 @@ const Projects = () => {
               Their Website
             </a>
           </div>
-          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+          <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">Coursera Courses</h3>
             <p className="text-xl flex items-center">
               Learned: <SiHtml5 /><SiCss3 /><FaJs /><SiReact /><SiDjango /><SiScratch /><SiPython />
@@ -72,7 +72,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+          <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">CS50 Courses</h3>
             <p className="text-xl flex items-center">
               Learned: <SiHtml5 /><SiCss3 /><FaJs /><SiReact /><SiDjango /><SiScratch /><SiPython /> <b>C</b>
@@ -105,7 +105,7 @@ const Projects = () => {
               </a>
             </div>
           </div>
-          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+          <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">FreeCodeCamp</h3>
             <p className="text-xl flex items-center">
               Learned: <SiPython /><SiHtml5 /><SiCss3 /><FaJs />
@@ -118,7 +118,7 @@ const Projects = () => {
               Their Website
             </a>
           </div>
-          <div className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500">
+          <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">CodeCombat</h3>
             <p className="text-xl flex items-center">
               Learned: <SiPython />
