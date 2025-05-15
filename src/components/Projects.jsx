@@ -114,16 +114,22 @@ const Schools = () => {
             <p className="text-xl">This includes various projects built for freecodecamp.</p>
             <div className='flex gap-4'>
               <a
-              href="/projects/techdoc"
+              href="/projects/recipe"
               className="font-bold text-b"
               >
-              Tech Docs
+              Recipe
               </a>
               <a
               href="/projects/tribute"
               className="font-bold text-b"
               >
               Tribute Page
+              </a>
+              <a
+              href="/projects/techdoc"
+              className="font-bold text-b"
+              >
+              Tech Docs
               </a>
               <a
               href="/projects/survey"
