@@ -103,7 +103,7 @@ const Schools = () => {
             className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
           >
             <div className="mb-[50px]">
-              <h3 className="text-3xl font-bold">Technical Documentation</h3>
+              <h3 className="text-3xl font-bold">FreeCodeCamp Static Webpages</h3>
               <p className="text-xl text-gray-400">
                 <em>at FreeCodeCamp</em>
               </p>
@@ -111,53 +111,33 @@ const Schools = () => {
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 />
             </p>
-            <p className="text-xl">A project in FreeCodeCamp</p>
-            <a
-            href="/projects/techdoc"
-            className="font-bold text-b"
-            >
-            Website
-            </a>
-          </div>
-          <div
-            className="card"
-          >
-            <div className="mb-[50px]">
-              <h3 className="text-3xl font-bold">Personal Portfolio (Mock)</h3>
-              <p className="text-xl text-gray-400">
-                <em>at FreeCodeCamp</em>
-              </p>
+            <p className="text-xl">This includes various projects built for freecodecamp.</p>
+            <div className='flex gap-4'>
+              <a
+              href="/projects/techdoc"
+              className="font-bold text-b"
+              >
+              Tech Docs
+              </a>
+              <a
+              href="/projects/tribute"
+              className="font-bold text-b"
+              >
+              Tribute Page
+              </a>
+              <a
+              href="/projects/survey"
+              className="font-bold text-b"
+              >
+              Survey
+              </a>
+              <a
+              href="/projects/mockportfolio"
+              className="font-bold text-b"
+              >
+              Mock Portfolio
+              </a>
             </div>
-            <p className="text-xl flex items-center">
-              Technologies used: <SiHtml5 /><SiCss3 />
-            </p>
-            <p className="text-xl">They told me to make a plain portfolio here (its static html and css)</p>
-            <a
-            href="/projects/mockportfolio"
-            className="font-bold text-b"
-            >
-            Website
-            </a>
-          </div>
-          <div
-            className="card"
-          >
-            <div className="mb-[50px]">
-              <h3 className="text-3xl font-bold">Tribute Page</h3>
-              <p className="text-xl text-gray-400">
-                <em>at FreeCodeCamp</em>
-              </p>
-            </div>
-            <p className="text-xl flex items-center">
-              Technologies used: <SiHtml5 /><SiCss3 />
-            </p>
-            <p className="text-xl">Another static website, this one is about tributing Dr. Norman Borlaug</p>
-            <a
-            href="/projects/tribute"
-            className="font-bold text-b"
-            >
-            Website
-            </a>
           </div>
           <div
             className="card"
