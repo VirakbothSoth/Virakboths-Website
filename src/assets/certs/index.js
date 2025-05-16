@@ -53,3 +53,4 @@ export { default as s1 } from './scrimba_1.jpg';
 export { default as s2 } from './scrimba_2.jpg';
 export { default as s3 } from './scrimba_3.jpg';
 export { default as s4 } from './scrimba_4.jpg';
+export { default as s5 } from './scrimba_aiweb_special.jpg';

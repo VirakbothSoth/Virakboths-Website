@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/certs';
+import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, s5, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/certs';
 import { PiCertificate } from "react-icons/pi";
 import Certificate from './Certificate';
 
@@ -15,8 +15,8 @@ const Certs = () => {
   ];
 
   const webCerts = [
-    { image: fes, url: 'https://www.coursera.org/account/accomplishments/specialization/certificate/N1KVLB2O64O2', altText: 'Meta Front-End Specialization Certificate' },
-    { image: bes, url: 'https://www.coursera.org/account/accomplishments/specialization/certificate/W74F1I8L92RQ', altText: 'Meta Back-End Specialization Certificate' },
+    { image: fes, url: 'https://www.coursera.org/account/accomplishments/specialization/certificate/N1KVLB2O64O2', altText: 'Meta Front-End Specialization' },
+    { image: bes, url: 'https://www.coursera.org/account/accomplishments/specialization/certificate/W74F1I8L92RQ', altText: 'Meta Back-End Specialization' },
 
     { image: f1, url: 'https://www.coursera.org/account/accomplishments/certificate/MMU2WMZEKWOA', altText: 'Meta Front-End Intro Certificate' },
     { image: f2, url: 'https://www.coursera.org/account/accomplishments/certificate/LO2FMY48V1BX', altText: 'Meta JavaScript Certificate' },
@@ -60,6 +60,7 @@ const Certs = () => {
   ];
 
   const aiCerts = [
+    { image: s5, url: 'https://www.coursera.org/account/accomplishments/certificate/78PBQYZS06B9', altText: 'Scrimba AI for Web Development Specialization' },
     { image: s1, url: 'https://www.coursera.org/account/accomplishments/certificate/RCW3SNB46E1N', altText: 'Scrimba Learn to Code with AI Certificate' },
     { image: s2, url: 'https://www.coursera.org/account/accomplishments/certificate/F304YJ6YFM2X', altText: 'Scrimba Web Dev with AI Certificate' },
     { image: s3, url: 'https://www.coursera.org/account/accomplishments/certificate/ZDSBCX0EHPNG', altText: 'Scrimba AI Engineering Intro Certificate' },
@@ -92,7 +93,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><PiCertificate />Certificates (40)</h2>
+        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><PiCertificate />Certificates (41)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button
