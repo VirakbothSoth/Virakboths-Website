@@ -1,5 +1,6 @@
 import React from 'react';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
+import { cy, pg, fc, sc } from "../assets/images/preview";
 import { FaCode } from "react-icons/fa";
 
 const Schools = () => {
@@ -32,12 +33,13 @@ const Schools = () => {
           <div
             className="card"
           >
-            <div className="mb-[50px]">
+            <div>
               <h3 className="text-3xl font-bold">Cybersecurity Website</h3>
               <p className="text-xl text-gray-400">
                 <em>at SnoopEdu</em>
               </p>
             </div>
+            <img src={cy} alt="Cybersecurity Website" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
             </p>
@@ -60,12 +62,13 @@ const Schools = () => {
           <div
             className="card"
           >
-            <div className="mb-[50px]">
+            <div>
               <h3 className="text-3xl font-bold">Password Generator</h3>
               <p className="text-xl text-gray-400">
                 <em>at home</em>
               </p>
             </div>
+            <img src={pg} alt="Passgen" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript />
             </p>
@@ -102,12 +105,13 @@ const Schools = () => {
           <div
             className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
           >
-            <div className="mb-[50px]">
+            <div>
               <h3 className="text-3xl font-bold">FreeCodeCamp Static Webpages</h3>
               <p className="text-xl text-gray-400">
                 <em>at FreeCodeCamp</em>
               </p>
             </div>
+            <img src={fc} alt="Static Projects" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 />
             </p>
@@ -148,12 +152,13 @@ const Schools = () => {
           <div
             className="card"
           >
-            <div className="mb-[50px]">
+            <div>
               <h3 className="text-3xl font-bold">Various Scratch Projects</h3>
               <p className="text-xl text-gray-400">
                 <em>at CS50S, Algorithmics</em>
               </p>
             </div>
+            <img src={sc} alt="Scratch Project" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiScratch />
             </p>

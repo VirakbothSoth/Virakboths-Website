@@ -49,6 +49,13 @@
 		@apply p-10;
 	}
 
+	.web-preview {
+		@apply h-48;
+		@apply rounded-lg;
+		@apply shadow-md;
+		@apply my-4;
+	}
+
 	@media (max-width: 1000px) {
 		h1 {
 			@apply text-6xl;
@@ -89,10 +96,20 @@
 				@apply text-2xl;
 			}
 
+			.certificate-i {
+				@apply m-0;
+				@apply p-2;
+				@apply text-base;
+			}
+
 			p,
 			a,
 			span {
 				@apply text-lg;
+			}
+
+			.web-preview {
+				@apply hidden;
 			}
 
 			#ScrollDown {

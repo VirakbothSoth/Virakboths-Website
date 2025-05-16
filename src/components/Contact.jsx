@@ -41,7 +41,7 @@ const Contact = () => {
 						<SiTelegram className="w-10 h-10" />
 					</a>
 					<a
-						href="https://www.linkedin.com/in/virakboth-soth-b1b2b8306/"
+						href="https://linkedin.com/in/virakboth-soth-b1b2b8306/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-cyan-700 transition-colors"
@@ -57,7 +57,7 @@ const Contact = () => {
 						<SiLeetcode className="w-10 h-10" />
 					</a>
 					<a
-						href="https://www.hackerrank.com/profile/virakbothsoth"
+						href="https://hackerrank.com/profile/virakbothsoth"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-black transition-colors"
@@ -65,7 +65,7 @@ const Contact = () => {
 						<SiHackerrank className="w-10 h-10" />
 					</a>
 					<a
-						href="https://www.codewars.com/users/VirakbothSoth"
+						href="https://codewars.com/users/VirakbothSoth"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-red-400 transition-colors"
@@ -73,7 +73,7 @@ const Contact = () => {
 						<SiCodewars className="w-10 h-10" />
 					</a>
 					<a
-						href="https://www.freecodecamp.org/virakboth_soth"
+						href="https://freecodecamp.org/virakboth_soth"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-black transition-colors"

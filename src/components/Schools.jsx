@@ -45,13 +45,13 @@ const Projects = () => {
                 Coursera
               </a>
               <a
-                href="https://www.coursera.org/professional-certificates/meta-front-end-developer"
+                href="https://coursera.org/professional-certificates/meta-front-end-developer"
                 className="font-bold text-b"
               >
                 Meta Front-End
               </a>
               <a
-                href="https://www.coursera.org/professional-certificates/meta-back-end-developer"
+                href="https://coursera.org/professional-certificates/meta-back-end-developer"
                 className="font-bold text-b"
               >
                 Meta Back-End
@@ -59,13 +59,13 @@ const Projects = () => {
             </div>
             <div className='flex gap-4'>
               <a
-                href="https://www.coursera.org/learn/learn-to-code-with-ai"
+                href="https://coursera.org/learn/learn-to-code-with-ai"
                 className="font-bold text-b"
               >
                 Scrimba Learn to Code with AI
               </a>
               <a
-                href="https://www.coursera.org/specializations/python"
+                href="https://coursera.org/specializations/python"
                 className="font-bold text-b"
               >
                 Python for Everybody
