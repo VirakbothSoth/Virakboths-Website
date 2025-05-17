@@ -1,24 +1,22 @@
 import React from 'react';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
-import { cy, pg, fc, sc } from "../assets/images/preview";
+import { cy, pg, fc, sc, ls } from "../assets/images/preview";
 import { FaCode } from "react-icons/fa";
 
 const Schools = () => {
-
   return (
     <section className="p-40">
       <div className="container mx-auto">
-        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaCode />Projects</h2>
+        <h2 className="section-title"><FaCode />Projects</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div
-            className="card"
-          >
-            <div className="mb-[50px]">
+          <div className="card">
+            <div>
               <h3 className="text-3xl font-bold">Link Shortener</h3>
               <p className="text-xl text-gray-400">
                 <em>at CS50W</em>
               </p>
             </div>
+            <img src={ls} alt="Link Shortener" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango />
             </p>
@@ -30,9 +28,7 @@ const Schools = () => {
             Github Repo
             </a>
           </div>
-          <div
-            className="card"
-          >
+          <div className="card">
             <div>
               <h3 className="text-3xl font-bold">Cybersecurity Website</h3>
               <p className="text-xl text-gray-400">
@@ -59,9 +55,7 @@ const Schools = () => {
               </a>
             </div>
           </div>
-          <div
-            className="card"
-          >
+          <div className="card">
             <div>
               <h3 className="text-3xl font-bold">Password Generator</h3>
               <p className="text-xl text-gray-400">
@@ -88,9 +82,7 @@ const Schools = () => {
               </a>
             </div>
           </div>
-          <div
-            className="card"
-          >
+          <div className="card">
             <div className="mb-[50px]">
               <h3 className="text-3xl font-bold">This Portfolio</h3>
               <p className="text-xl text-gray-400">
@@ -102,9 +94,7 @@ const Schools = () => {
             </p>
             <p className="text-xl">This very website is one of my projects, too!</p>
           </div>
-          <div
-            className="p-5 bg-white shadow-md rounded-md hover:shadow-xl hover:p-10 duration-500"
-          >
+          <div className="card">
             <div>
               <h3 className="text-3xl font-bold">FreeCodeCamp Static Webpages</h3>
               <p className="text-xl text-gray-400">
@@ -149,9 +139,7 @@ const Schools = () => {
               </a>
             </div>
           </div>
-          <div
-            className="card"
-          >
+          <div className="card">
             <div>
               <h3 className="text-3xl font-bold">Various Scratch Projects</h3>
               <p className="text-xl text-gray-400">

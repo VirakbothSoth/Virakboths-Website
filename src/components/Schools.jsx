@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="p-40">
       <div className="container mx-auto">
-        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaSchool />Schools & Courses</h2>
+        <h2 className="section-title"><FaSchool />Schools & Courses</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="card">
             <h3 className="text-3xl font-bold mb-[50px]">SnoopEdu</h3>

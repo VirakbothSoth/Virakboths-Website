@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20">
       <div className="container mx-auto">
-        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaStar />Skills</h2>
+        <h2 className="section-title"><FaStar />Skills</h2>
         <div className="flex justify-center">
           <div className="flex flex-wrap justify-center gap-8">
             {[

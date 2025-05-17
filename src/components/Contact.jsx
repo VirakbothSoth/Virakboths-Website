@@ -1,14 +1,5 @@
 import React from "react";
-import {
-	SiFacebook,
-	SiLinkedin,
-	SiGithub,
-	SiLeetcode,
-	SiHackerrank,
-	SiCodewars,
-	SiTelegram,
-	SiFreecodecamp,
-} from "react-icons/si";
+import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCodewars, SiTelegram, SiFreecodecamp } from "react-icons/si";
 
 const Contact = () => {
 	return (

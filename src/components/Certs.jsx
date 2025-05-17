@@ -93,7 +93,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><PiCertificate />Certificates (41)</h2>
+        <h2 className="section-title"><PiCertificate />Certificates (41)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button

@@ -6,7 +6,7 @@ const About = () => {
     <section className="py-80">
       <div className="container mx-auto">
         <div className="my-5">
-          <h2 className="text-5xl mb-6 text-center font-bold flex items-center justify-center gap-2"><FaBook />About Me</h2>
+          <h2 className="section-title"><FaBook />About Me</h2>
           <p>
             I'm a web developer with a passion for creating beautiful and responsive websites.
             My focus is on delivering clean, functional, and user-friendly designs.
