@@ -6,7 +6,7 @@ export { default as csw } from './cs50w.jpg';
 
 
 // Specializations
-
+export { default as fSS } from './fSS.jpg';
 export { default as fes } from './fes.jpg';
 export { default as bes } from './bes.jpg';
 // Meta Front-End

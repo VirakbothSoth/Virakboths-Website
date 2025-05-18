@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, csp, css, csw, jhu, fes, bes, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, s5, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/images/certs';
+import { csx, csp, css, csw, jhu, fes, bes, fss, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, s5, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/images/certs';
 import { PiCertificate } from "react-icons/pi";
 import Certificate from './Certificate';
 
@@ -15,6 +15,7 @@ const Certs = () => {
   ];
 
   const webCerts = [
+    { image: fes, url: 'https://coursera.org/verify/specialization/4LCWZD00SIPH', altText: 'Meta Full-Stack Specialization' },
     { image: fes, url: 'https://coursera.org/verify/specialization/N1KVLB2O64O2', altText: 'Meta Front-End Specialization' },
     { image: bes, url: 'https://coursera.org/verify/specialization/W74F1I8L92RQ', altText: 'Meta Back-End Specialization' },
 
