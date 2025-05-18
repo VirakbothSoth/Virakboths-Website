@@ -23,7 +23,7 @@ const Hero = () => {
             </h1>
           </div>
           <p>
-            A passionate cambodian Front-End Developer that studied web development since 2023
+            A passionate cambodian developer that studied coding since 2022
           </p>
           <p
             id="ScrollDown"

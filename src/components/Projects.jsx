@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
-import { cy, pg, fc, sc, ls } from "../assets/images/preview";
+import { cy, pg, fc, sc, ls, pf } from "../assets/images/preview";
 import { FaCode } from "react-icons/fa";
 
 const Schools = () => {
@@ -83,12 +83,13 @@ const Schools = () => {
             </div>
           </div>
           <div className="card">
-            <div className="mb-[50px]">
+            <div>
               <h3 className="text-3xl font-bold">This Portfolio</h3>
               <p className="text-xl text-gray-400">
                 <em>at home</em>
               </p>
             </div>
+            <img src={pf} alt="Portfolio" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 /><SiReact /><SiTailwindcss />
             </p>

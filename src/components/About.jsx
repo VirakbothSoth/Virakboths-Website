@@ -8,8 +8,7 @@ const About = () => {
         <div className="my-5">
           <h2 className="section-title"><FaBook />About Me</h2>
           <p>
-            I'm a web developer with a passion for creating beautiful and responsive websites.
-            My focus is on delivering clean, functional, and user-friendly designs.
+            I'm a developer from Cambodia that can make websites & simple programs.
           </p>
         </div>
         <div className="my-5">

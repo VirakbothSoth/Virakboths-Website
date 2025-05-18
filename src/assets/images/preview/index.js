@@ -3,3 +3,4 @@ export { default as pg } from './passgen.jpg';
 export { default as fc } from './fcc.jpg';
 export { default as sc } from './scratch.jpg';
 export { default as ls } from './linkshortener.jpg';
+export { default as pf } from './portfolio.jpg';
