@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
-import { cy, pg, fc, sc, ls, pf } from "../assets/images/preview";
+import { cy, pg, fc, sc, ls, pf, su } from "../assets/images/preview";
 import { FaCode } from "react-icons/fa";
 
 const Schools = () => {
@@ -137,6 +137,27 @@ const Schools = () => {
               className="font-bold text-b"
               >
               Mock Portfolio
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <div>
+              <h3 className="text-3xl font-bold">Odin Project Static Webpages</h3>
+              <p className="text-xl text-gray-400">
+                <em>at The Odin Project</em>
+              </p>
+            </div>
+            <img src={su} alt="Sign-Up" className="web-preview" />
+            <p className="text-xl flex items-center">
+              Technologies used: <SiHtml5 /><SiCss3 />
+            </p>
+            <p className="text-xl">This includes various projects built for the odin project.</p>
+            <div className='flex gap-4'>
+              <a
+              href="/projects/signup"
+              className="font-bold text-b"
+              >
+              Sign-Up Form
               </a>
             </div>
           </div>
