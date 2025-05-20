@@ -6,9 +6,11 @@ export { default as csw } from './cs50w.jpg';
 
 
 // Specializations
-export { default as fSS } from './fSS.jpg';
-export { default as fes } from './fes.jpg';
-export { default as bes } from './bes.jpg';
+export { default as fss } from './fs_special.jpg';
+export { default as fes } from './fe_special.jpg';
+export { default as bes } from './be_special.jpg';
+export { default as rs } from './react_special.jpg';
+export { default as wds } from './wdf_special.jpg';
 // Meta Front-End
 export { default as f1 } from './f1.jpg';
 export { default as f2 } from './f2.jpg';
@@ -46,7 +48,7 @@ export { default as p3 } from './p3.jpg';
 export { default as hks } from './hks.jpg';
 export { default as hkse } from './hkse.jpg';
 export { default as jhu } from './jhu.jpg';
-export { default as awd } from './accessible_web_dev.jpg';
+export { default as awd } from './awd.jpg';
 
 // AI Certificates
 export { default as s1 } from './scrimba_1.jpg';

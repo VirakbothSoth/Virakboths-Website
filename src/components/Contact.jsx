@@ -1,5 +1,5 @@
 import React from "react";
-import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCodewars, SiTelegram, SiFreecodecamp } from "react-icons/si";
+import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCredly, SiCodewars, SiTelegram, SiFreecodecamp } from "react-icons/si";
 
 const Contact = () => {
 	return (
@@ -38,6 +38,14 @@ const Contact = () => {
 						className="text-gray-600 hover:text-cyan-700 transition-colors"
 					>
 						<SiLinkedin className="w-10 h-10" />
+					</a>
+					<a
+						href="https://www.credly.com/users/virakboth-soth"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="text-gray-600 hover:text-[#FF6B00] transition-colors"
+					>
+						<SiCredly className="w-10 h-10" />
 					</a>
 					<a
 						href="https://leetcode.com/u/VirakbothSoth/"
