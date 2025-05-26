@@ -3,7 +3,7 @@ import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCredly, S
 
 const Contact = () => {
 	return (
-		<section className="py-80 bg-blue-100">
+		<section className="py-20  bg-[#01111d] border-[0.5px] border-[#272b3b]">
 			<div className="container mx-auto">
 				<h2 className="font-bold mb-6">Find Me!</h2>
 				<div className="flex justify-center items-center space-x-8">
@@ -82,9 +82,9 @@ const Contact = () => {
 				</div>
 				<p className="mt-8">
 					My Email:{" "}
-					<span className="text-blue-600 font-bold">
+					<a className="text-blue-600 font-bold" href="mailto:virakbothsoth@gmail.com">
 						virakbothsoth@gmail.com
-					</span>
+					</a>
 				</p>
 			</div>
 		</section>

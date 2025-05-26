@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, csp, css, csw, jhu, fes, bes, fss, rs, wds, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, s5, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/images/certs';
+import { csx, csp, css, csw, jhu, fes, bes, fss, rs, wds, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, s5, vpe, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/images/certs';
 import { PiCertificate } from "react-icons/pi";
 import Certificate from './Certificate';
 
@@ -68,6 +68,7 @@ const Certs = () => {
     { image: s2, url: 'https://coursera.org/verify/F304YJ6YFM2X', altText: 'Scrimba Web Dev with AI Certificate' },
     { image: s3, url: 'https://coursera.org/verify/ZDSBCX0EHPNG', altText: 'Scrimba AI Engineering Intro Certificate' },
     { image: s4, url: 'https://coursera.org/verify/6YOVVKETFY5F', altText: 'Scrimba Deploy AI Apps with Cloudflare Certificate' },
+    { image: vpe, url: 'https://coursera.org/verify/5UQ6HQRO04K2', altText: 'Vanderbilt Prompt Engineering Certificate' },
   ];
 
   // Render certificates based on active category
@@ -96,36 +97,36 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto">
-        <h2 className="section-title"><PiCertificate />Certificates (44)</h2>
+        <h2 className="section-title"><PiCertificate />Certificates (45)</h2>
         {/* Buttons to switch categories */}
         <div className="flex space-x-4 mb-6 justify-center">
           <button
-            className={`px-4 py-2 rounded ${activeCategory === 'cs50' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}
+            className={`${activeCategory === 'cs50' ? 'cert-category-active' : 'cert-category'}`}
             onClick={() => setActiveCategory('cs50')}
           >
             Harvard's CS50
           </button>
           <button
-            className={`px-4 py-2 rounded ${activeCategory === 'web' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}
+            className={`${activeCategory === 'web' ? 'cert-category-active' : 'cert-category'}`}
             onClick={() => setActiveCategory('web')}
           >
             Website Development
           </button>
           <button
-            className={`px-4 py-2 rounded inline ${activeCategory === 'ai' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}
+            className={`${activeCategory === 'ai' ? 'cert-category-active' : 'cert-category'}`}
             onClick={() => setActiveCategory('ai')}
           >
             AI
           </button>
           <button
-            className={`px-4 py-2 rounded ${activeCategory === 'other' ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-800'}`}
+            className={`${activeCategory === 'other' ? 'cert-category-active' : 'cert-category'}`}
             onClick={() => setActiveCategory('other')}
           >
             Others
           </button>
         </div>
         {/* Certificate grid */}
-        <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10 border-[0.5px] border-[#272b3b] rounded-lg">
           {renderCertificates()}
         </div>
       </div>

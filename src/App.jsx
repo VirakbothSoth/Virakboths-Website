@@ -14,7 +14,7 @@ import './styles/tailwind.css';
 export default function App() {
   return (
     <Router>
-      <div className="text-gray-800 bg-bg">
+      <div className="text-[#eeeeff] bg-[#081424]">
         <Routes>
           <Route path="/" element={
             <>

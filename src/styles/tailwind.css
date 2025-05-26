@@ -44,16 +44,35 @@
 		@apply font-bold animate-bounce flex items-center justify-center gap-2 text-base leading-relaxed text-gray-400;
 	}
 
+	.cert-category {
+		@apply px-4;
+		@apply py-2;
+		@apply rounded;
+		@apply bg-[#01111d];
+		@apply text-[#eeeeff];
+		@apply border-[0.5px];
+		@apply border-[#272b3b];
+	}
+
+	.cert-category-active {
+		@apply px-4;
+		@apply py-2;
+		@apply rounded;
+		@apply bg-[#011177];
+		@apply text-[#ffffff];
+	}
+
 	.certificate-i {
 		@apply p-5;
 	}
 
 	.card {
 		@apply p-5;
-		@apply bg-white;
+		@apply bg-[#01111d];
 		@apply shadow-md rounded-md;
 		@apply duration-500;
-		@apply border-s-8 border-s-indigo-500;
+		@apply border-[0.5px];
+		@apply border-[#272b3b];
 	}
 
 	.card:hover {
@@ -68,7 +87,17 @@
 		@apply my-4;
 	}
 
-	@media (max-width: 1000px) {
+	.certificate-item {
+		@apply w-auto;
+		@apply h-64;
+		@apply max-w-sm;
+		@apply shadow-lg;
+		@apply hover:scale-105;
+		@apply duration-300;
+		@apply rounded-lg;
+	}
+
+	@media (max-width: 1700px) {
 		h1 {
 			@apply text-6xl;
 		}
@@ -91,6 +120,11 @@
 			@apply text-sm;
 		}
 
+		.certificate-item {
+			@apply w-auto;
+			@apply h-[11vw];
+		}
+
 		@media (max-width: 680px) {
 			h1 {
 				@apply text-4xl;
@@ -110,7 +144,6 @@
 
 			.certificate-i {
 				@apply m-0;
-				@apply p-2;
 				@apply text-base;
 			}
 

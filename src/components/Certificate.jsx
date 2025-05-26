@@ -11,7 +11,7 @@ const Certificate = ({ image, url, altText }) => {
       <img
         src={image}
         alt={altText}
-        className="w-auto h-auto max-w-sm shadow-lg hover:scale-105 duration-300"
+        className="certificate-item"
       />
     </a>
   );

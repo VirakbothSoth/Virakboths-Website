@@ -5,7 +5,7 @@ import { FaArrowDown } from "react-icons/fa6";
 const Hero = () => {
   return (
     <section>
-      <div className="text-black p-40">
+      <div className="p-40">
         <div>
           <div className="flex items-center justify-center">
             <img

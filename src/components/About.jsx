@@ -13,17 +13,17 @@ const About = () => {
         </div>
         <div className="my-5">
           <h3 className="font-bold mb-6">Hobbies</h3>
-          <ul className="text-lg list-disc list-inside leading-relaxed text-gray-700 inline-block ">
+          <ul className="text-lg list-disc list-inside leading-relaxed inline-block ">
             <li className="flex items-start gap-2">
-              <span className="flex-shrink-0 w-4 h-4 text-black">•</span>
+              <span className="flex-shrink-0 w-4 h-4">•</span>
               <span>Learning Chinese 🗣️</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="flex-shrink-0 w-4 h-4 text-black">•</span>
+              <span className="flex-shrink-0 w-4 h-4">•</span>
               <span>Socializing with Friends 👥</span>
             </li>
             <li className="flex items-start gap-2">
-              <span className="flex-shrink-0 w-4 h-4 text-black">•</span>
+              <span className="flex-shrink-0 w-4 h-4">•</span>
               <span>Coding (of course) 🧑‍💻</span>
             </li>
           </ul>
