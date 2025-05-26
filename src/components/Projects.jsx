@@ -2,6 +2,7 @@ import React from 'react';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
 import { cy, pg, fc, sc, ls, pf, su } from "../assets/images/preview";
 import { FaCode } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 
 const Schools = () => {
   return (
@@ -10,12 +11,15 @@ const Schools = () => {
         <h2 className="section-title"><FaCode />Projects</h2>
         <div className="text-left grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className="card">
-            <div>
+            <div className="flex items-start justify-between">
               <h3 className="text-3xl font-bold">Link Shortener</h3>
-              <p className="text-xl text-gray-400">
-                <em>at CS50W</em>
-              </p>
+              <span className="cursor-pointer text-gray-700 text-2xl">
+                <IoMdClose />
+              </span>
             </div>
+            <p className="text-xl text-gray-400">
+              <em>at CS50W</em>
+            </p>
             <img src={ls} alt="Link Shortener" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 /><SiJavascript /><SiDjango />
@@ -30,7 +34,12 @@ const Schools = () => {
           </div>
           <div className="card">
             <div>
+              <div className="flex items-start justify-between">
               <h3 className="text-3xl font-bold">Cybersecurity Website</h3>
+              <span className="cursor-pointer text-gray-700 text-2xl">
+                <IoMdClose />
+              </span>
+            </div>
               <p className="text-xl text-gray-400">
                 <em>at SnoopEdu</em>
               </p>
@@ -57,7 +66,12 @@ const Schools = () => {
           </div>
           <div className="card">
             <div>
+              <div className="flex items-start justify-between">
               <h3 className="text-3xl font-bold">Password Generator</h3>
+              <span className="cursor-pointer text-gray-700 text-2xl">
+                <IoMdClose />
+              </span>
+            </div>
               <p className="text-xl text-gray-400">
                 <em>at home</em>
               </p>
@@ -84,7 +98,12 @@ const Schools = () => {
           </div>
           <div className="card">
             <div>
+              <div className="flex items-start justify-between">
               <h3 className="text-3xl font-bold">This Portfolio</h3>
+              <span className="cursor-pointer text-gray-700 text-2xl">
+                <IoMdClose />
+              </span>
+            </div>
               <p className="text-xl text-gray-400">
                 <em>at home</em>
               </p>
@@ -97,7 +116,12 @@ const Schools = () => {
           </div>
           <div className="card">
             <div>
-              <h3 className="text-3xl font-bold">FreeCodeCamp Static Webpages</h3>
+              <div className="flex items-start justify-between">
+              <h3 className="text-3xl font-bold">FreeCodeCamp Static Pages</h3>
+              <span className="cursor-pointer text-gray-700 text-2xl">
+                <IoMdClose />
+              </span>
+            </div>
               <p className="text-xl text-gray-400">
                 <em>at FreeCodeCamp</em>
               </p>
@@ -142,7 +166,12 @@ const Schools = () => {
           </div>
           <div className="card">
             <div>
-              <h3 className="text-3xl font-bold">Odin Project Static Webpages</h3>
+              <div className="flex items-start justify-between">
+              <h3 className="text-3xl font-bold">Odin Static Pages</h3>
+              <span className="cursor-pointer text-gray-700 text-2xl">
+                <IoMdClose />
+              </span>
+            </div>
               <p className="text-xl text-gray-400">
                 <em>at The Odin Project</em>
               </p>
@@ -163,7 +192,12 @@ const Schools = () => {
           </div>
           <div className="card">
             <div>
-              <h3 className="text-3xl font-bold">Various Scratch Projects</h3>
+              <div className="flex items-start justify-between">
+              <h3 className="text-3xl font-bold">Scratch Projects</h3>
+              <span className="cursor-pointer text-gray-700 text-2xl">
+                <IoMdClose />
+              </span>
+            </div>
               <p className="text-xl text-gray-400">
                 <em>at CS50S, Algorithmics</em>
               </p>

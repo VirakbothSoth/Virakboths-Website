@@ -9,17 +9,17 @@ const Hero = () => {
         <div>
           <div className="flex items-center justify-center">
             <img
-            src={face}
-            alt="Virakboth's Face"
-            className="h-[400px] rounded-full border-4 border-gray-200 shadow-lg object-cover"
+              src={face}
+              alt="Virakboth's Face"
+              className="h-[400px] rounded-full border-4 border-gray-200 shadow-lg object-cover"
             />
           </div>
           <div>
             <h1 className="inline-block font-bold">
-              Hello, I'm
+              Hello, I'm Virakboth
             </h1>
-            <h1 className="inline-block font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-400 m-[20px]">
-              Virakboth
+            <h1 className="inline-block font-bold animate-blink">
+              _
             </h1>
           </div>
           <p>
@@ -32,6 +32,17 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <style>
+        {`
+          @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+          }
+          .animate-blink {
+            animation: blink 1s steps(2, start) infinite;
+          }
+        `}
+      </style>
     </section>
   );
 };

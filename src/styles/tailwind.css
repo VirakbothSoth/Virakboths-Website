@@ -62,10 +62,6 @@
 		@apply text-[#ffffff];
 	}
 
-	.certificate-i {
-		@apply p-5;
-	}
-
 	.card {
 		@apply p-5;
 		@apply bg-[#01111d];
@@ -88,6 +84,7 @@
 	}
 
 	.certificate-item {
+		@apply p-5;
 		@apply w-auto;
 		@apply h-64;
 		@apply max-w-sm;

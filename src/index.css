@@ -1,13 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
 
 h1, h2, h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Overpass Mono', monospace;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 

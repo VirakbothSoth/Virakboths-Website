@@ -6,12 +6,11 @@ const Certificate = ({ image, url, altText }) => {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="certificate-i"
+      className="certificate-item"
     >
       <img
         src={image}
         alt={altText}
-        className="certificate-item"
       />
     </a>
   );

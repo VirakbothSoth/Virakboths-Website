@@ -7,6 +7,15 @@ const Certs = () => {
   const [activeCategory, setActiveCategory] = useState('cs50');
 
   // Certificate arrays
+  const specCerts = [
+    { image: fss, url: 'https://coursera.org/verify/specialization/4LCWZD00SIPH', altText: 'Meta Full-Stack Specialization' },
+    { image: fes, url: 'https://coursera.org/verify/specialization/N1KVLB2O64O2', altText: 'Meta Front-End Specialization' },
+    { image: bes, url: 'https://coursera.org/verify/specialization/W74F1I8L92RQ', altText: 'Meta Back-End Specialization' },
+    { image: rs, url: 'https://coursera.org/verify/specialization/6UACQ0DBG02V', altText: 'Meta React Specialization' },
+    { image: wds, url: 'https://coursera.org/verify/specialization/WQ4IAJ7I2PVJ', altText: 'Meta Web Dev Fundamentals Specialization' },
+    { image: s5, url: 'https://coursera.org/verify/specialization/78PBQYZS06B9', altText: 'Scrimba AI for Web Development Specialization' }
+  ];
+
   const cs50Certs = [
     { image: csx, url: 'https://cs50.harvard.edu/certificates/9d966695-a4b6-4154-9952-52e4d2efa692', altText: 'CS50x Certificate' },
     { image: css, url: 'https://cs50.harvard.edu/certificates/a06a26e2-64e9-438a-8666-977af8d062ed', altText: 'CS50S Certificate' },
@@ -74,7 +83,9 @@ const Certs = () => {
   // Render certificates based on active category
   const renderCertificates = () => {
     let certificates = [];
-    if (activeCategory === 'cs50') {
+    if (activeCategory === 'special') {
+      certificates = specCerts;
+    } else if (activeCategory === 'cs50') {
       certificates = cs50Certs;
     } else if (activeCategory === 'web') {
       certificates = webCerts;
@@ -99,35 +110,43 @@ const Certs = () => {
       <div className="container mx-auto">
         <h2 className="section-title"><PiCertificate />Certificates (45)</h2>
         {/* Buttons to switch categories */}
-        <div className="flex space-x-4 mb-6 justify-center">
-          <button
-            className={`${activeCategory === 'cs50' ? 'cert-category-active' : 'cert-category'}`}
-            onClick={() => setActiveCategory('cs50')}
-          >
-            Harvard's CS50
-          </button>
-          <button
-            className={`${activeCategory === 'web' ? 'cert-category-active' : 'cert-category'}`}
-            onClick={() => setActiveCategory('web')}
-          >
-            Website Development
-          </button>
-          <button
-            className={`${activeCategory === 'ai' ? 'cert-category-active' : 'cert-category'}`}
-            onClick={() => setActiveCategory('ai')}
-          >
-            AI
-          </button>
-          <button
-            className={`${activeCategory === 'other' ? 'cert-category-active' : 'cert-category'}`}
-            onClick={() => setActiveCategory('other')}
-          >
-            Others
-          </button>
-        </div>
-        {/* Certificate grid */}
-        <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10 border-[0.5px] border-[#272b3b] rounded-lg">
-          {renderCertificates()}
+        <div className="border-[0.5px] border-[#272b3b]">
+          <div className="flex space-x-4 mb-6 justify-center">
+            <button
+              className={`${activeCategory === 'special' ? 'cert-category-active' : 'cert-category'}`}
+              onClick={() => setActiveCategory('special')}
+            >
+              Specializations
+            </button>
+            <button
+              className={`${activeCategory === 'cs50' ? 'cert-category-active' : 'cert-category'}`}
+              onClick={() => setActiveCategory('cs50')}
+            >
+              Harvard's CS50
+            </button>
+            <button
+              className={`${activeCategory === 'web' ? 'cert-category-active' : 'cert-category'}`}
+              onClick={() => setActiveCategory('web')}
+            >
+              Website Development
+            </button>
+            <button
+              className={`${activeCategory === 'ai' ? 'cert-category-active' : 'cert-category'}`}
+              onClick={() => setActiveCategory('ai')}
+            >
+              AI
+            </button>
+            <button
+              className={`${activeCategory === 'other' ? 'cert-category-active' : 'cert-category'}`}
+              onClick={() => setActiveCategory('other')}
+            >
+              Others
+            </button>
+          </div>
+          {/* Certificate grid */}
+          <div className="py-10 grid grid-cols-1 md:grid-cols-3 gap-10 rounded-lg">
+            {renderCertificates()}
+          </div>
         </div>
       </div>
     </section>
