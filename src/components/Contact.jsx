@@ -3,7 +3,7 @@ import { SiFacebook, SiLinkedin, SiGithub, SiLeetcode, SiHackerrank, SiCredly, S
 
 const Contact = () => {
 	return (
-		<section className="py-20  bg-[#01111d] border-[0.5px] border-[#272b3b]">
+		<section className="p-auto  bg-[#01111d] border-[0.5px] border-[#272b3b]">
 			<div className="container mx-auto">
 				<h2 className="font-bold mb-6">Find Me!</h2>
 				<div className="flex justify-center items-center space-x-8">

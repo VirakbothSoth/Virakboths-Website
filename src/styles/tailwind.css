@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+	html {
+		@apply bg-[#081424];
+	}
+
 	body {
 		@apply text-center;
 	}
@@ -14,7 +18,7 @@
 	}
 
 	h1 {
-		@apply text-9xl;
+		@apply text-8xl;
 	}
 
 	h2 {
@@ -127,16 +131,23 @@
 				@apply text-4xl;
 			}
 
-			div {
-				@apply p-1;
-			}
-
 			h2 {
 				@apply text-3xl;
 			}
 
 			h3 {
 				@apply text-2xl;
+			}
+
+			.cert-section {
+				@apply flex;
+				@apply flex-col;
+				@apply items-center;
+			}
+
+			.cert-category, .cert-category-active {
+				@apply flex flex-col items-center;
+				@apply flex-col-reverse;
 			}
 
 			.certificate-i {

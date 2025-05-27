@@ -1,4 +1,3 @@
-import React from 'react';
 import face from '../assets/images/virakboth.jpg';
 import { FaArrowDown } from "react-icons/fa6";
 
@@ -8,38 +7,37 @@ const Hero = () => {
       <div className="p-40">
         <div>
           <div className="flex items-center justify-center">
-            <img
-              src={face}
-              alt="Virakboth's Face"
-              className="h-[400px] rounded-full border-4 border-gray-200 shadow-lg object-cover"
-            />
+            <span className="relative inline-block">
+              <span className="absolute inset-0 rounded-full border-4 border-[#272b3b] animate-ping"></span>
+              <img
+                src={face}
+                alt="Virakboth's Face"
+                className="relative h-[400px] rounded-full border-4 border-[#272b3b] shadow-lg object-cover"
+                style={{ zIndex: 1 }}
+              />
+            </span>
           </div>
           <div>
             <h1 className="inline-block font-bold">
-              Hello, I'm Virakboth
+              Hi, I'm Virakboth
             </h1>
             <h1 className="inline-block font-bold animate-blink">
               _
             </h1>
           </div>
           <p>
-            A passionate cambodian developer that studied coding since 2022
-          </p>
-          <p
-            id="ScrollDown"
-          >
-            <FaArrowDown />Scroll Down<FaArrowDown />
+            A Passionate Cambodian Developer and Student
           </p>
         </div>
       </div>
       <style>
         {`
           @keyframes blink {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0; }
+            0%, 49% { opacity: 1; }
+            50%, 100% { opacity: 0; }
           }
           .animate-blink {
-            animation: blink 1s steps(2, start) infinite;
+            animation: blink 0.5s steps(1, start) infinite;
           }
         `}
       </style>

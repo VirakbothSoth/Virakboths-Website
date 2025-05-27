@@ -14,10 +14,10 @@ import './styles/tailwind.css';
 export default function App() {
   return (
     <Router>
-      <div className="text-[#eeeeff] bg-[#081424]">
+      <div className="text-[#eeeeff] bg-[#081424] min-h-screen flex items-center justify-center">
         <Routes>
           <Route path="/" element={
-            <>
+            <div className="w-full flex flex-col items-center justify-center">
               <Hero />
               <About />
               <Journey />
@@ -26,7 +26,7 @@ export default function App() {
               <Schools />
               <Projects />
               <Contact />
-            </>
+            </div>
           } />
         </Routes>
       </div>

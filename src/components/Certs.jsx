@@ -107,7 +107,7 @@ const Certs = () => {
 
   return (
     <section className="p-80">
-      <div className="container mx-auto">
+      <div className="container mx-auto cert-section">
         <h2 className="section-title"><PiCertificate />Certificates (45)</h2>
         {/* Buttons to switch categories */}
         <div className="border-[0.5px] border-[#272b3b]">
