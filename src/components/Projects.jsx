@@ -1,6 +1,6 @@
 import React from 'react';
 import { SiScratch, SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, SiDjango } from "react-icons/si";
-import { cy, pg, fc, sc, ls, pf, su } from "../assets/images/preview";
+import { cy, pg, fc, sc, ls, pf, su, tr } from "../assets/images/preview";
 import { FaCode } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
 
@@ -126,7 +126,7 @@ const Schools = () => {
                 <em>at home</em>
               </p>
             </div>
-            <img src={fc} alt="Static Projects" className="web-preview" />
+            <img src={tr} alt="Static Projects" className="web-preview" />
             <p className="text-xl flex items-center">
               Technologies used: <SiHtml5 /><SiCss3 /><SiTailwindcss />
             </p>
