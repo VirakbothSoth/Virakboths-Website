@@ -34,8 +34,9 @@ export { default as ve } from './ve.jpg';
 export { default as ib_be } from './ibm_bckend.jpg';
 export { default as ib_js } from './ibm_js.jpg';
 // Cisco Certificates
-export { default as dc } from './dc.jpg';
-export { default as ud } from './ud.jpg';
+export { default as dc } from './cisco_digitalcont.jpg';
+export { default as ud } from './cisco_usingdevice.jpg';
+export { default as lu } from './cisco_linuxunhatch.jpg';
 // FreeCodeCamp Certificates
 export { default as scp } from './fcc_scp.jpg';
 export { default as rwd } from './fcc_rwd.jpg';

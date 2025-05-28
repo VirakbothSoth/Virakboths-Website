@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { csx, csp, css, csw, jhu, fes, bes, fss, rs, wds, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, s5, vpe, iv, ve, ib_be, ib_js, ud, dc, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/images/certs';
+import { csx, csp, css, csw, jhu, fes, bes, fss, rs, wds, f1, f2, f3, f4, f5, f6, f7, b1, b2, b3, b4, b5, b6, b7, s1, s2, s3, s4, s5, vpe, iv, ve, ib_be, ib_js, ud, dc, lu, cc, p1, p2, p3, hks, hkse, rwd, scp, awd } from '../assets/images/certs';
 import { PiCertificate } from "react-icons/pi";
 import Certificate from './Certificate';
 
@@ -24,12 +24,6 @@ const Certs = () => {
   ];
 
   const webCerts = [
-    { image: fss, url: 'https://coursera.org/verify/specialization/4LCWZD00SIPH', altText: 'Meta Full-Stack Specialization' },
-    { image: fes, url: 'https://coursera.org/verify/specialization/N1KVLB2O64O2', altText: 'Meta Front-End Specialization' },
-    { image: bes, url: 'https://coursera.org/verify/specialization/W74F1I8L92RQ', altText: 'Meta Back-End Specialization' },
-    { image: rs, url: 'https://coursera.org/verify/specialization/6UACQ0DBG02V', altText: 'Meta React Specialization' },
-    { image: wds, url: 'https://coursera.org/verify/specialization/WQ4IAJ7I2PVJ', altText: 'Meta Web Dev Fundamentals Specialization' },
-
     { image: f1, url: 'https://coursera.org/verify/MMU2WMZEKWOA', altText: 'Meta Front-End Intro Certificate' },
     { image: f2, url: 'https://coursera.org/verify/LO2FMY48V1BX', altText: 'Meta JavaScript Certificate' },
     { image: f3, url: 'https://coursera.org/verify/0RAM91AXMKNF', altText: 'Meta HTML CSS Depth Certificate' },
@@ -66,18 +60,21 @@ const Certs = () => {
     { image: p3, url: 'https://coursera.org/verify/MTNK7QQL6XA3', altText: 'UOM Python Web Data Certificate' },
     { image: hks, url: 'https://coursera.org/verify/YHEPBKM5P9UU', altText: 'HKU Scratch Certificate' },
     { image: hkse, url: 'https://coursera.org/verify/GTPPJ35GF7JI', altText: 'HKU Software Engineer Certificate' },
-    { image: dc, url: 'https://coursera.org/verify/4NSF48QD3FIS', altText: 'Cisco Digital Content Creation Certificate' },
-    { image: ud, url: 'https://netacad.com/certificates?issuanceId=b91dac97-f5d9-4ea6-acab-9397fb44401b', altText: 'Cisco Using Devices Certificate' },
-    { image: scp, url: 'https://netacad.com/certificates?issuanceId=b91dac97-f5d9-4ea6-acab-9397fb44401b', altText: 'Cisco Using Devices Certificate' },
+    { image: scp, url: 'https://www.freecodecamp.org/certification/virakboth_soth/scientific-computing-with-python-v7', altText: 'FreeCodeCamp Scientific Python Certificate' },
   ];
 
   const aiCerts = [
-    { image: s5, url: 'https://coursera.org/verify/specialization/78PBQYZS06B9', altText: 'Scrimba AI for Web Development Specialization' },
     { image: s1, url: 'https://coursera.org/verify/RCW3SNB46E1N', altText: 'Scrimba Learn to Code with AI Certificate' },
     { image: s2, url: 'https://coursera.org/verify/F304YJ6YFM2X', altText: 'Scrimba Web Dev with AI Certificate' },
     { image: s3, url: 'https://coursera.org/verify/ZDSBCX0EHPNG', altText: 'Scrimba AI Engineering Intro Certificate' },
     { image: s4, url: 'https://coursera.org/verify/6YOVVKETFY5F', altText: 'Scrimba Deploy AI Apps with Cloudflare Certificate' },
     { image: vpe, url: 'https://coursera.org/verify/5UQ6HQRO04K2', altText: 'Vanderbilt Prompt Engineering Certificate' },
+  ];
+
+  const ciscoCerts = [
+    { image: dc, url: 'https://netacad.com/certificates?issuanceId=f32fb5f1-cd7f-4210-9e14-1b4a841edbdd', altText: 'Cisco Digital Content Creation Certificate' },
+    { image: ud, url: 'https://netacad.com/certificates?issuanceId=b91dac97-f5d9-4ea6-acab-9397fb44401b', altText: 'Cisco Using Devices Certificate' },
+    { image: lu, url: 'https://netacad.com/certificates?issuanceId=9a324cf8-27a8-488e-8cd3-c0af2158ac38', altText: 'Cisco Linux Unhatched Certificate' },
   ];
 
   // Render certificates based on active category
@@ -91,6 +88,8 @@ const Certs = () => {
       certificates = webCerts;
     } else if (activeCategory === 'ai') {
       certificates = aiCerts;
+    } else if (activeCategory === 'cisco') {
+      certificates = ciscoCerts;
     } else if (activeCategory === 'other') {
       certificates = otherCerts;
     }
@@ -108,7 +107,7 @@ const Certs = () => {
   return (
     <section className="p-80">
       <div className="container mx-auto cert-section">
-        <h2 className="section-title"><PiCertificate />Certificates (45)</h2>
+        <h2 className="section-title"><PiCertificate />Certificates (46)</h2>
         {/* Buttons to switch categories */}
         <div className="border-[0.5px] border-[#272b3b]">
           <div className="flex space-x-4 mb-6 justify-center">
@@ -135,6 +134,12 @@ const Certs = () => {
               onClick={() => setActiveCategory('ai')}
             >
               AI
+            </button>
+            <button
+              className={`${activeCategory === 'cisco' ? 'cert-category-active' : 'cert-category'}`}
+              onClick={() => setActiveCategory('cisco')}
+            >
+              Cisco
             </button>
             <button
               className={`${activeCategory === 'other' ? 'cert-category-active' : 'cert-category'}`}
